@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Parisienne&display=swap">
+  <title>Rose Elegance Perfume</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #ead8e7;
+      color: #333;
+    }
+
+    header {
+      background-color: #f68ea4;
+      color: #4a1a2c;
+      text-align: center;
+      padding: 2em;
+      border-bottom: 2px solid #d95377;
+    }
+
+    nav {
+      background-color: #d95377;
+      padding: 1em;
+      text-align: right;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1em 2em;
+      margin: 0 1em;
+      font-size: 1.2em;
+      transition: background-color 0.3s;
+      border-radius: 10px;
+    }
+
+    nav a:hover {
+      background-color: #c93054;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 4em 0;
+    }
+
+    .left-section {
+      flex: 1;
+      text-align: center;
+    }
+
+    .right-section {
+      flex: 1;
+    }
+
+    h1 {
+      font-family: 'Parisienne', cursive;
+      font-size: 3em;
+      margin-bottom: 1em;
+      color: #4a1a2c;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.5;
+      color: #2a0d19;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #d95377;
+      color: #fff;
+      padding: 1em 2em;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #c93054;
+    }
+
+    .dropdown {
+      display: inline-block;
+      margin-top: 1em;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      text-align: left;
+      border-radius: 10px;
+      color:#f68ea4 ;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      background-color:#ead8e7 ;
+    }
+
+    .info-box {
+      background-color: #f68ea4;
+      color: #4a1a2c;
+      padding: 1em;
+      border-radius: 10px;
+      margin-top: 2em;
+      position: relative;
+    }
+
+    .info-box h2 {
+      font-family: 'Parisienne', cursive;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    .slide-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #ead8e7;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-box:hover .slide-content {
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2em;
+      background-color: #d95377;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Collections</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Rose Elegance Perfume</h1>
+    <p>Indulge in the delicate essence of roses and experience the epitome of elegance.</p>
+  </header>
+
+  <section>
+    <div class="left-section">
+      <img src="perfume.PNG" alt="Perfume Bottle" style="width: 80%;">
+      
+    </div>
+    
+    <div class="right-section">
+      <h2>About Our Perfumes</h2>
+      <p>Immerse yourself in the modern allure of Rose Elegance Perfume. Our collection is meticulously curated to evoke sophistication and charm, making every moment memorable.</p>
+      <div class="dropdown">
+        <span>Explore Our Collections</span>
+        <div class="dropdown-content">
+          <p><strong>Classic Rose</strong> - A timeless fragrance that captures the essence of blooming roses.</p>
+          <p><strong>Romantic Bloom</strong> - A blend of roses and other florals, perfect for special occasions.</p>
+          <p><strong>Signature Scent</strong> - Our unique and signature rose-infused perfume for a distinct presence.</p>
+        </div>
+      </div>
+      <a href="#" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+
+  <div class="info-box">
+    <h2>Special Offer</h2>
+    <p>Get a complimentary rose-scented candle with every purchase of our Signature Scent perfume.</p>
+    <div class="slide-content">
+      <p><strong>Limited Time Offer!</strong> Enhance your surroundings with the enchanting aroma of our premium rose-scented candle.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Rose Elegance Perfume</p>
+  </footer>
+
+</body>
+</html>
